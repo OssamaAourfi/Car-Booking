@@ -1,0 +1,40 @@
+.mask{
+  width:100%;
+  position: absolute;
+  right:0px;
+  top: 0px;
+  z-index: -1;
+  height: 40rem;
+}
+.car{
+    position: absolute;
+  right:29rem;
+  top:15rem;
+  
+  z-index: -1;
+}
+.trafics{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.cars{
+    display: grid;
+}
+.cars > button {
+    height: 4rem;
+    width: 4rem;
+    margin-top: 2rem;
+   border: solid 1px #ffff;
+   border-radius:  10%  ;
+}
+.icon{
+    height: 2rem;
+    width: 2.5rem;
+}
+.car1{
+    margin-left: 3rem;
+}
+.car2{
+    margin-right: 3rem;
+}

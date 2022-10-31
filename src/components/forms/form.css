@@ -1,0 +1,48 @@
+.div-form{
+height: 8rem;
+background-color: #f8f8f8;
+margin-top: -3rem;
+width: 52rem;
+margin-left: 15rem
+
+}
+form{
+    padding-top: 1rem;
+    /* margin-left: 7rem; */
+    margin-top: 9rem;
+    
+}
+
+.select1>select{
+    width: 15rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+}
+.select2>select{
+    margin-top: 1rem;
+    height: 2.5rem;
+    border-radius: 5px;
+}
+.ville{
+    width: 15rem;
+    margin-left: 2rem;
+}
+.min{
+    width: 7rem;
+     margin-left: 2rem;
+}
+.max{
+     width: 7rem;
+      margin-left: 1rem;
+     
+}
+.recherche{
+     width: 15rem;
+     height: 2.5rem;
+     background-color: #10c340;
+     color: aliceblue;
+     margin-left: 2rem;
+     border-radius: 5px;
+     border: none;
+}
