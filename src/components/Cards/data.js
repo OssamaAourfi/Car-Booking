@@ -54,7 +54,7 @@ const data = [
     ville: "Rabat",
     prix: 29398,
     km: 1119398,
-    carburanr: "Diesel",
+    carburant: "Diesel",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const data = [
     ville: "Rabat",
     prix: 29398,
     km: 1119398,
-    carburanr: "Diesel",
+    carburant: "Diesel",
   },
 ];
 

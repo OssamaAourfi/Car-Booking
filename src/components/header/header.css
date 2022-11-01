@@ -7,11 +7,11 @@ header>p{
     color: #ffff;
     margin-right: 1rem;
 }
-.social{
-    margin-top: 1.2rem;
-    margin-left: -24rem;
+.socials{
+   margin-top: 1rem;
+    margin-left: -20rem;
 }
-.social>a{
+.socials>a{
     padding-left: 1rem;
     text-decoration: none;
     color: #ffff;

@@ -1,0 +1,67 @@
+
+.img1{
+  width:100%;
+  /* position: absolute;
+  left: 0rem;
+  top: 100rem; */
+  margin-top: 7rem;
+  height: 40rem;
+ 
+}
+.footer1{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    
+}
+.logo{
+    margin-left: 5rem;
+    
+}
+ .logo > img{
+    height: 3.5rem;
+    width: 13rem;
+    margin-top: 0.5rem;
+} 
+.logo>p{
+    color: aliceblue;
+    width: 1rem;  
+}
+
+.ico{
+    color: red;
+    background-color: #ffff;
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 2rem;
+    object-fit: fill;
+
+}
+.ico-tel{
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    font-weight: large;
+}
+.contact-us{
+    display: flex;
+    margin-left: 18rem;
+}
+.contact-us > p{
+    color: #ffff;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+.contact > h3{
+    color: #ffff;
+    margin-left: 18rem;
+}
+.quik{
+    color: white;
+    margin-left: 4rem;
+}
+.quik>h3{
+    margin-left: 1.4rem;
+}
+.ex1{
+    max-width: 100px;
+}

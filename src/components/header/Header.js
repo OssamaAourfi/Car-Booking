@@ -11,7 +11,7 @@ function Header() {
         <header>
           
             <p>Follow us on</p>
-            <div className="social">
+            <div className="socials">
             <a href="https://www.instagram.com/ossamaaf/?hl=fr" >
               <FaTwitter />
             </a>
