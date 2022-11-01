@@ -10,5 +10,8 @@ import seat from "../assets/seat.png";
 import north from "../assets/north.png";
 import mercedes from "../assets/mercedes.png";
 import mazda from "../assets/mazda.png";
+import ferrari from "../assets/Ferrari.jpg";
+import lambo from "../assets/Lamborghini.png";
 
-export default [bmw, dacia, ford, cheverolet, north, mazda, mercedes, peugeot, renault, seat, nissan, hyundai];
+const images =[bmw, dacia, ford, cheverolet, north, mazda, mercedes, peugeot, lambo,renault, seat, nissan,ferrari ,hyundai];
+export default images;
