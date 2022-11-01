@@ -19,6 +19,7 @@ function Footer() {
             uuuuuuuuuuuuuuuwwwwwwwwwwwwwwyyyyyyyyyyyyfffffffff
             ffffffffffffffffffffffffffffffffffffffffffffffjjjj
             jjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkk
+            kkkllllqwwrereyuiyuiyyiouiououfposjiowojfwjo
           </p>
         </div>
         <div className="contact">
@@ -52,6 +53,7 @@ function Footer() {
           </ul>
         </div>
       </div>
+      <footer><span>&copy; Car Booking</span><span>Last updated on 02/09/2022</span></footer>
     </div>
   );
 }

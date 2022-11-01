@@ -1,26 +1,31 @@
 
 .img1{
   width:100%;
-  /* position: absolute;
+   position: absolute;
   left: 0rem;
-  top: 100rem; */
+  top: 100rem; 
   margin-top: 7rem;
   height: 40rem;
  
 }
 .footer1{
     background-color: black;
+    position: absolute;
     display: flex;
     width: 100%;
-    
+     left: 0rem;
+     
+    top: 147rem; 
 }
 .logo{
     margin-left: 5rem;
+   
+    
     
 }
  .logo > img{
-    height: 3.5rem;
-    width: 13rem;
+    height: 4.5rem;
+    width: 15rem;
     margin-top: 0.5rem;
 } 
 .logo>p{
@@ -64,4 +69,14 @@
 }
 .ex1{
     max-width: 100px;
+}
+footer{
+    position: absolute;
+    background-color: #982019;
+    color: #ffff;
+    display: flex;
+    width: 100%;
+     left: 0rem;
+     justify-content: center;
+    top: 159rem; 
 }
