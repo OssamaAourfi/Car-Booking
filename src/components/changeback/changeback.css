@@ -7,11 +7,12 @@
   height: 40rem;
 }
 .car{
-    position: absolute;
-  right:29rem;
-  top:15rem;
-  
+  position: absolute;
+  right:25rem;
+  top:11rem;
+  background: transparent;
   z-index: -1;
+ 
 }
 .trafics{
     display: flex;

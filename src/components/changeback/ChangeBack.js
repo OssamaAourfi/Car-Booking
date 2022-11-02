@@ -1,49 +1,89 @@
-import React from "react";
+import React, { useState } from "react";
 import Mask from "../../assets/Mask.png";
 import "./changeback.css";
 import Car from "../../assets/car.png";
 import { FaCarSide, FaMotorcycle, FaTruck, FaTractor } from "react-icons/fa";
 import { MdAgriculture } from "react-icons/md";
 import { TbForklift } from "react-icons/tb";
+import imgAgricole from "../../assets/agricole-removebg-preview.png";
+import imgCamion from "../../assets/camion-removebg-preview.png";
+import imgIndistruel from "../../assets/indistruel-removebg-preview.png";
+import imgMotor from "../../assets/motor.png";
+import imgTractor from "../../assets/tractor-removebg-preview.png";
 function ChangeBack() {
+  const trafics = [
+    "Voiture",
+    "Motor",
+    "Agricole",
+    "Camion",
+    "Indistruel",
+    "Travaux",
+  ];
+  const [myTrafics, setMyTrafics] = useState("");
+   const TraficImage = ({ src }) => {
+     return (
+       <img
+         src={src}
+         alt=""
+         className="car"
+         style={{ width: "35rem", height: "25rem" }}
+       />
+     );
+   };
   return (
     <div>
       <img src={Mask} alt="" className="mask" />
-      <img src={Car} alt="" className="car" />
+      {/* <img src={Car} alt="" className="car" /> */}
       <div className="trafics">
         <div className="cars">
-          <button className="car1">
+          <button className="car1" onClick={() => setMyTrafics(trafics[0])}>
             <FaCarSide className="icon" />
-            Voiture
+            {trafics[0]}
           </button>
-          <button className="car1">
+          <button className="car1" onClick={() => setMyTrafics(trafics[1])}>
             <FaMotorcycle className="icon" />
-            Motor
+            {trafics[1]}
           </button>
 
-          <button className="car1">
+          <button className="car1" onClick={() => setMyTrafics(trafics[2])}>
             <MdAgriculture className="icon" />
-            Agricole
+            {trafics[2]}
           </button>
         </div>
         <div className="cars">
-          <button className="car2">
+          <button className="car2" onClick={() => setMyTrafics(trafics[3])}>
             <FaTruck className="icon" />
-            Camion
+            {trafics[3]}
           </button>
-          <button className="car2">
+          <button className="car2" onClick={() => setMyTrafics(trafics[4])}>
             <TbForklift className="icon" />
-            Industriel
+            {trafics[4]}
           </button>
 
-          <button className="car2">
+          <button className="car2" onClick={() => setMyTrafics(trafics[5])}>
             <FaTractor className="icon" />
-            Travaux
+            {trafics[5]}
           </button>
+          <div>
+            <p>{myTrafics === "Voiture" && <TraficImage src={Car} />}</p>
+            <p>{myTrafics === "Camion" && <TraficImage src={imgCamion} />}</p>
+            <p>
+              {myTrafics === "Agricole" && <TraficImage src={imgAgricole} />}
+            </p>
+            <p>
+              {myTrafics === "Indistruel" && (
+                <TraficImage src={imgIndistruel} />
+              )}
+            </p>
+            <p>{myTrafics === "Motor" && <TraficImage src={imgMotor} />}</p>
+            <p>{myTrafics === "Travaux" && <TraficImage src={imgTractor} />}</p>
+          </div>
         </div>
       </div>
     </div>
   );
+  
+ 
 }
 
 export default ChangeBack;
