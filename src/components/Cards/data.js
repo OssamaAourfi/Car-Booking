@@ -66,6 +66,36 @@ const data = [
     km: 1119398,
     carburant: "Diesel",
   },
+  {
+    id: 7,
+    name: "Renault",
+    img: img1,
+    modele: 1990,
+    ville: "Rabat",
+    prix: 29398,
+    km: 1119398,
+    carburant: "Diesel",
+  },
+  {
+    id: 8,
+    name: "Renault",
+    img: img1,
+    modele: 1990,
+    ville: "Rabat",
+    prix: 29398,
+    km: 1119398,
+    carburant: "Diesel",
+  },
+  {
+    id: 9,
+    name: "Renault",
+    img: img1,
+    modele: 1990,
+    ville: "Rabat",
+    prix: 29398,
+    km: 1119398,
+    carburant: "Diesel",
+  },
 ];
 
 export default data;

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import data from "./data";
 import {
   FaFacebookF,
@@ -7,11 +7,20 @@ import {
   FaRegHeart,
 } from "react-icons/fa";
 import "./Card.css";
+
 function Card() {
+  const [noOfElement, setNoOfElement] = useState(3);
+  const loadMore = () => {
+    setNoOfElement(noOfElement + noOfElement);
+  }
+  const lessMore = () => {
+    setNoOfElement(noOfElement - noOfElement);
+  };
+  const slice = data.slice(0, noOfElement);
   return (
     <div>
       <div className="container portfolio-container">
-        {data.map(({ id, img, name, modele, ville, carburant, km, prix }) => {
+        {slice.map(({ id, img, name, modele, ville, carburant, km, prix }) => {
           return (
             <article key={id} className="portfolio-item">
               <div className="portfolio-item-img">
@@ -37,6 +46,8 @@ function Card() {
             </article>
           );
         })}
+        <button onClick={() => loadMore()}>Voir plus</button>
+        <button onClick={() => lessMore()}>Voir moins</button>
       </div>
       <div className="card-social">
         <p className="card-social-p">Follow us on</p>

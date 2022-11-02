@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 import "./footer.css";
 import { FaRegEnvelope } from "react-icons/fa";
 import { MdLocationPin } from "react-icons/md";
-import {BsTelephone} from "react-icons/bs"
+import { BsTelephone } from "react-icons/bs";
 function Footer() {
   return (
     <div>
@@ -53,7 +53,10 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <footer><span>&copy; Car Booking</span><span>Last updated on 02/09/2022</span></footer>
+      <footer>
+        <span>&copy; Car Booking</span>
+        <span>Last updated on 02/09/2022</span>
+      </footer>
     </div>
   );
 }

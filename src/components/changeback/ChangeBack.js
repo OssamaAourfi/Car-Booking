@@ -26,7 +26,7 @@ function ChangeBack() {
          src={src}
          alt=""
          className="car"
-         style={{ width: "35rem", height: "25rem" }}
+         style={{ width: "46rem", height: "26rem" }}
        />
      );
    };

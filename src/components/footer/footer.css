@@ -1,16 +1,16 @@
 
 .img1{
   width:100%;
-   position: absolute;
+   /* position: absolute;
   left: 0rem;
-  top: 100rem; 
+  top: 100rem;  */
   margin-top: 7rem;
   height: 40rem;
  
 }
 .footer1{
     background-color: black;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     width: 100%;
      left: 0rem;
@@ -71,7 +71,7 @@
     max-width: 100px;
 }
 footer{
-    position: absolute;
+    /* position: absolute; */
     background-color: #982019;
     color: #ffff;
     display: flex;
