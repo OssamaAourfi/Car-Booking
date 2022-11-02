@@ -3,7 +3,13 @@ import img2 from "../../assets/car.png";
 import img3 from "../../assets/bm.png"; 
 import img4 from "../../assets/seatcar.png"; 
 import img5 from "../../assets/nissan-juke.png"; 
-import img6 from "../../assets/Honda.png"; 
+import img6 from "../../assets/Honda.png";
+import img7 from "../../assets/agricole-removebg-preview.png"; 
+import img8 from "../../assets/tractor-removebg-preview.png"; 
+import img9 from "../../assets/camion-removebg-preview.png"; 
+import img10 from "../../assets/indistruel-removebg-preview.png";
+import img11 from "../../assets/motor.png";
+import img12 from "../../assets/Truck.png";
 
 const data = [
   {
@@ -69,7 +75,7 @@ const data = [
   {
     id: 7,
     name: "Renault",
-    img: img1,
+    img: img7,
     modele: 1990,
     ville: "Rabat",
     prix: 29398,
@@ -79,7 +85,7 @@ const data = [
   {
     id: 8,
     name: "Renault",
-    img: img1,
+    img: img8,
     modele: 1990,
     ville: "Rabat",
     prix: 29398,
@@ -89,7 +95,37 @@ const data = [
   {
     id: 9,
     name: "Renault",
-    img: img1,
+    img: img9,
+    modele: 1990,
+    ville: "Rabat",
+    prix: 29398,
+    km: 1119398,
+    carburant: "Diesel",
+  },
+  {
+    id: 10,
+    name: "Renault",
+    img: img10,
+    modele: 1990,
+    ville: "Rabat",
+    prix: 29398,
+    km: 1119398,
+    carburant: "Diesel",
+  },
+  {
+    id: 11,
+    name: "Renault",
+    img: img11,
+    modele: 1990,
+    ville: "Rabat",
+    prix: 29398,
+    km: 1119398,
+    carburant: "Diesel",
+  },
+  {
+    id: 12,
+    name: "Renault",
+    img: img12,
     modele: 1990,
     ville: "Rabat",
     prix: 29398,

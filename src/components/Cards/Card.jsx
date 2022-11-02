@@ -10,13 +10,13 @@ import "./Card.css";
 
 function Card() {
   const [noOfElement, setNoOfElement] = useState(3);
+  
   const loadMore = () => {
     setNoOfElement(noOfElement + noOfElement);
   }
-  const lessMore = () => {
-    setNoOfElement(noOfElement - noOfElement);
-  };
+  
   const slice = data.slice(0, noOfElement);
+   
   return (
     <div>
       <div className="container portfolio-container">
@@ -47,7 +47,7 @@ function Card() {
           );
         })}
         <button onClick={() => loadMore()}>Voir plus</button>
-        <button onClick={() => lessMore()}>Voir moins</button>
+        
       </div>
       <div className="card-social">
         <p className="card-social-p">Follow us on</p>
