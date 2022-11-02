@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaRegHeart,
 } from "react-icons/fa";
+import { MdUnfoldMore } from "react-icons/md";
 import "./Card.css";
 
 function Card() {
@@ -46,9 +47,10 @@ function Card() {
             </article>
           );
         })}
-        <button onClick={() => loadMore()}>Voir plus</button>
+        
         
       </div>
+      <button onClick={() => loadMore()} className="more"><p><MdUnfoldMore /></p>Voir plus</button>
       <div className="card-social">
         <p className="card-social-p">Follow us on</p>
         <div className="card-social-a">

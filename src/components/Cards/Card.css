@@ -97,7 +97,15 @@ span{
     margin-top: 0.3rem;
      transform: rotate(270deg);
 }
-
+.more{
+    border: none;
+    background-color: transparent;
+    margin-left: 40rem;
+    margin-top: 5rem;
+}
+.more>p{
+    font-size: xx-large;
+}
 
 
 
