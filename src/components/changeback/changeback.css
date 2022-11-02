@@ -24,7 +24,7 @@
 }
 .cars > button {
     height: 4rem;
-    width: 4rem;
+    width: 4.5rem;
     margin-top: 2rem;
    border: solid 1px #ffff;
    border-radius:  10%  ;
@@ -35,7 +35,17 @@
 }
 .car1{
     margin-left: 3rem;
+    
+}
+.car1:focus{
+    background-color: #a6060b;
+    color: #ffff;
 }
 .car2{
     margin-right: 3rem;
+    
+}
+.car2:focus {
+    background-color: #a6060b;
+    color: #ffff;
 }
