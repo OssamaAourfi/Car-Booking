@@ -39,21 +39,33 @@ header>p{
 nav{
     display: flex;
     justify-content: center;
+    
 }
 nav > a{
     margin-top: 3rem;
     margin-right: 1.5rem;
     text-decoration: none;
     color: #ffff;
+    text-transform: uppercase;
  
 }
 /*-----------------MEdiaQueris(MediumDevices)--------*/
-@media screen and(max-width:1024px){
-    /* .p-social{
-   display: flexbox;
-    } */
+@media screen and (max-width:1024px){
+   
 }
 /*-----------------MEdiaQueris(SmallDevices)--------*/
-@media screen and(max-width:600px){
- 
+@media screen and (max-width:600px){
+.connexion{
+   display: none;
+    }
+.socials{
+    display: none;
+}
+header >p {
+    display: none;
+}
+nav > a{
+    font-size: x-small;
+    margin-right: 1rem;
+}
 }
