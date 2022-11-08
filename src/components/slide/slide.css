@@ -18,3 +18,18 @@ cursor: grab;
 .inner-carousel{
     display: flex;
 }
+
+/* Media Queries (MEdium Devices) */
+@media screen and (max-width:1024px) {}
+
+/* Media Queries (Small Devices) */
+@media screen and (max-width:600px) {
+    .item{
+        margin-top: 20rem;
+      
+    }
+    .item img{
+        width: auto;
+       
+    }
+}

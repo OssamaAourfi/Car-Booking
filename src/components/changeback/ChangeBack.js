@@ -20,20 +20,20 @@ function ChangeBack() {
     "Travaux",
   ];
   const [myTrafics, setMyTrafics] = useState("");
-   const TraficImage = ({ src }) => {
-     return (
-       <img
-         src={src}
-         alt=""
-         className="car"
-         style={{ width: "46rem", height: "26rem" }}
-       />
-     );
-   };
+  const TraficImage = ({ src }) => {
+    return (
+      <img
+        src={src}
+        alt=""
+        className="car"
+        //  style={{ width: "46rem", height: "26rem" }}
+      />
+    );
+  };
   return (
     <div>
       <img src={Mask} alt="" className="mask" />
-      {/* <img src={Car} alt="" className="car" /> */}
+
       <div className="trafics">
         <div className="cars">
           <button className="car1" onClick={() => setMyTrafics(trafics[0])}>
@@ -82,8 +82,6 @@ function ChangeBack() {
       </div>
     </div>
   );
-  
- 
 }
 
 export default ChangeBack;

@@ -3,9 +3,9 @@
   position: absolute;
   right:0px;
   top: 0px;
-  
   z-index: -1;
   height: 40rem;
+  
 }
 .car{
   position: absolute;
@@ -13,6 +13,8 @@
   top:11rem;
   background: transparent;
   z-index: -1;
+  width: "46rem";
+  height: "26rem"
  
 }
 .trafics{
@@ -49,4 +51,23 @@
 .car2:focus {
     background-color: #a6060b;
     color: #ffff;
+}
+
+/*-----------------MEdiaQueris(MediumDevices)--------*/
+@media screen and (max-width:1024px) {}
+
+/*-----------------MEdiaQueris(SmallDevices)--------*/
+@media screen and (max-width:600px) {
+    .mask{
+        width: auto;
+    }
+    .car{
+            position: absolute;
+            right: 3rem;
+            top: 25rem;
+            background: transparent;
+            z-index: -1;
+            width: 20rem;
+    }
+   
 }

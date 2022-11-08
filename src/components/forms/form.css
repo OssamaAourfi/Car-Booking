@@ -46,3 +46,45 @@ form{
      border-radius: 5px;
      border: none;
 }
+
+/* Media Queries (MEdium Devices) */
+@media screen and (max-width:1024px) {
+    
+}
+/* Media Queries (Small Devices) */
+@media screen and (max-width:600px) {
+   form{
+    margin-top: 6rem;
+    margin-left: 1.7rem;
+   }
+  .div-form{
+    margin-left: 0rem;
+    width: 0rem;
+  }
+  .select1 , .select2{
+    display: grid;
+  }
+  .select1>select { 
+      margin-left: 3rem;
+      margin-top: 1rem ;
+  }
+
+  .select2>select {
+      margin-top: 1rem;
+      margin-left: 3rem;  
+  }
+  .min {
+      width: 15rem;
+      margin-left: 2rem;
+  }
+
+  .max {
+      width: 15rem;
+      margin-left: 1rem;
+
+  }
+  .recherche {  
+      margin-left: 3rem; 
+      margin-top: 1rem;
+  }
+}
